@@ -40,28 +40,28 @@ This project is designed for **educational purposes** to clearly demonstrate how
 📁 Project Structure
 --------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   simple_project/   ├── db_init.py       # Database initialization script   ├── get_posts.py     # Database access layer   ├── server.py        # Socket server, routing, HTML rendering   ├── posts.db         # SQLite database (ignored by git)   └── README.md   `
+Plain text   simple_project/   ├── db_init.py       # Database initialization script   ├── get_posts.py     # Database access layer   ├── server.py        # Socket server, routing, HTML rendering   ├── posts.db         # SQLite database (ignored by git)   └── README.md   `
 
 ⚙️ Installation & Usage
 -----------------------
 
 ### 1️⃣ Initialize the Database (run once)
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python db_init.py   `
+Plain text   python db_init.py   `
 
 This will create the SQLite database and the posts table.
 
 ### 2️⃣ Start the Server
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python server.py   `
+Plain text   python server.py   `
 
 You should see:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Server running: http://127.0.0.1:8080   `
+Plain text   Server running: http://127.0.0.1:8080   `
 
 ### 3️⃣ Open in Browser
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   http://127.0.0.1:8080   `
+Plain text   http://127.0.0.1:8080   `
 
 🌐 Available Routes
 -------------------
